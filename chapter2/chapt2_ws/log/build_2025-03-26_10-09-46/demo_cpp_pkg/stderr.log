@@ -1,0 +1,9 @@
+/usr/bin/ld: CMakeFiles/learn_funcational.dir/src/learn_funcational.cpp.o: in function `main':
+learn_funcational.cpp:(.text+0xce): undefined reference to `FileSave::FileSave()'
+/usr/bin/ld: learn_funcational.cpp:(.text+0x3c2): undefined reference to `FileSave::~FileSave()'
+/usr/bin/ld: learn_funcational.cpp:(.text+0x533): undefined reference to `FileSave::~FileSave()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/learn_funcational.dir/build.make:97：learn_funcational] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:277：CMakeFiles/learn_funcational.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake: *** [Makefile:146：all] 错误 2

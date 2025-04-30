@@ -1,0 +1,63 @@
+[0.011s] Invoking command in '/home/mi/FishRos/chapter4/chapt4_ws/build/demo_cpp_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mi/FishRos/chapter4/chapt4_ws/install/demo_python_service:/opt/ros/humble:/home/mi/dev_ws/install/learning_urdf:/home/mi/dev_ws/install/learning_topic:/home/mi/dev_ws/install/learning_tf:/home/mi/dev_ws/install/learning_service:/home/mi/dev_ws/install/learning_qos:/home/mi/dev_ws/install/learning_pkg_python:/home/mi/dev_ws/install/learning_parameter:/home/mi/dev_ws/install/learning_node:/home/mi/dev_ws/install/learning_launch:/home/mi/dev_ws/install/learning_action:/home/mi/dev_ws/install/learning_gazebo_harmonic:/home/mi/dev_ws/install/learning_gazebo:/home/mi/dev_ws/install/learning_cv CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/mi/FishRos/chapter4/chapt4_ws/install/chapt4_interfaces/lib:/home/mi/catkin_ws/devel/lib:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/mi/catkin_ws/devel/lib:/usr/local/cuda/lib64:/home/mi/dev_ws/install/learning_interface/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/home/mi/catkin_ws/devel/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/home/mi/catkin_ws/devel/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /home/mi/miniconda3/bin/cmake /home/mi/FishRos/chapter4/chapt4_ws/src/demo_cpp_service -DCMAKE_INSTALL_PREFIX=/home/mi/FishRos/chapter4/chapt4_ws/install/demo_cpp_service
+[0.107s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.107s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.107s]   CMake.
+[0.107s] 
+[0.107s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.107s]   to tell CMake that the project requires at least <min> but has been updated
+[0.107s]   to work with policies introduced by <max> or earlier.
+[0.107s] 
+[0.107s] [0m
+[0.145s] -- The C compiler identification is GNU 11.4.0
+[0.222s] -- The CXX compiler identification is GNU 11.4.0
+[0.228s] -- Detecting C compiler ABI info
+[0.276s] -- Detecting C compiler ABI info - done
+[0.287s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.287s] -- Detecting C compile features
+[0.287s] -- Detecting C compile features - done
+[0.298s] -- Detecting CXX compiler ABI info
+[0.356s] -- Detecting CXX compiler ABI info - done
+[0.368s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.368s] -- Detecting CXX compile features
+[0.368s] -- Detecting CXX compile features - done
+[0.381s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.498s] -- Found Python3: /home/mi/miniconda3/bin/python3 (found version "3.12.9") found components: Interpreter
+[0.617s] -- Found chapt4_interfaces: 0.0.0 (/home/mi/FishRos/chapter4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake)
+[0.663s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.671s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.681s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.696s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.718s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.806s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.868s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.874s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.906s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.921s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.972s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.973s] -- Found Threads: TRUE
+[1.028s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[1.081s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.206s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.206s] -- Configured cppcheck include dirs: 
+[1.206s] -- Configured cppcheck exclude dirs and/or files: 
+[1.207s] -- Added test 'lint_cmake' to check CMake code style
+[1.208s] -- Added test 'uncrustify' to check C / C++ code style
+[1.208s] -- Configured uncrustify additional arguments: 
+[1.208s] -- Added test 'xmllint' to check XML markup files
+[1.209s] -- Configuring done (1.1s)
+[1.214s] [31mCMake Error at CMakeLists.txt:18 (add_executable):
+[1.215s]   Cannot find source file:
+[1.215s] 
+[1.215s]     src/patrol_client.cpp
+[1.215s] 
+[1.215s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[1.215s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[1.215s]   .f95 .f03 .hip .ispc
+[1.215s] 
+[1.215s] [0m
+[1.215s] [31mCMake Error at CMakeLists.txt:18 (add_executable):
+[1.215s]   No SOURCES given to target: patrol_client
+[1.215s] 
+[1.215s] [0m
+[1.215s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[1.223s] Invoked command in '/home/mi/FishRos/chapter4/chapt4_ws/build/demo_cpp_service' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mi/FishRos/chapter4/chapt4_ws/install/demo_python_service:/opt/ros/humble:/home/mi/dev_ws/install/learning_urdf:/home/mi/dev_ws/install/learning_topic:/home/mi/dev_ws/install/learning_tf:/home/mi/dev_ws/install/learning_service:/home/mi/dev_ws/install/learning_qos:/home/mi/dev_ws/install/learning_pkg_python:/home/mi/dev_ws/install/learning_parameter:/home/mi/dev_ws/install/learning_node:/home/mi/dev_ws/install/learning_launch:/home/mi/dev_ws/install/learning_action:/home/mi/dev_ws/install/learning_gazebo_harmonic:/home/mi/dev_ws/install/learning_gazebo:/home/mi/dev_ws/install/learning_cv CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/mi/FishRos/chapter4/chapt4_ws/install/chapt4_interfaces/lib:/home/mi/catkin_ws/devel/lib:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/mi/catkin_ws/devel/lib:/usr/local/cuda/lib64:/home/mi/dev_ws/install/learning_interface/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/home/mi/catkin_ws/devel/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:/home/mi/catkin_ws/devel/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /home/mi/miniconda3/bin/cmake /home/mi/FishRos/chapter4/chapt4_ws/src/demo_cpp_service -DCMAKE_INSTALL_PREFIX=/home/mi/FishRos/chapter4/chapt4_ws/install/demo_cpp_service

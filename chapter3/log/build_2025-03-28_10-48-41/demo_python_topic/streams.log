@@ -1,0 +1,25 @@
+[0.600s] Invoking command in '/home/mi/FishRos/chapter3/topic_ws/src/demo_python_topic': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/mi/FishRos/chapter3/build/demo_python_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mi/FishRos/chapter3/install/demo_python_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/demo_python_topic build --build-base /home/mi/FishRos/chapter3/build/demo_python_topic/build install --record /home/mi/FishRos/chapter3/build/demo_python_topic/install.log --single-version-externally-managed install_data
+[0.754s] running egg_info
+[0.764s] writing ../../../build/demo_python_topic/demo_python_topic.egg-info/PKG-INFO
+[0.764s] writing dependency_links to ../../../build/demo_python_topic/demo_python_topic.egg-info/dependency_links.txt
+[0.764s] writing entry points to ../../../build/demo_python_topic/demo_python_topic.egg-info/entry_points.txt
+[0.764s] writing requirements to ../../../build/demo_python_topic/demo_python_topic.egg-info/requires.txt
+[0.764s] writing top-level names to ../../../build/demo_python_topic/demo_python_topic.egg-info/top_level.txt
+[0.783s] reading manifest file '../../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'
+[0.783s] adding license file 'LICENSE'
+[0.784s] writing manifest file '../../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'
+[0.784s] running build
+[0.784s] running build_py
+[0.784s] copying demo_python_topic/novel_pub_node.py -> /home/mi/FishRos/chapter3/build/demo_python_topic/build/lib/demo_python_topic
+[0.784s] running install
+[0.787s] running install_lib
+[0.797s] copying /home/mi/FishRos/chapter3/build/demo_python_topic/build/lib/demo_python_topic/novel_pub_node.py -> /home/mi/FishRos/chapter3/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic
+[0.797s] byte-compiling /home/mi/FishRos/chapter3/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic/novel_pub_node.py to novel_pub_node.cpython-310.pyc
+[0.797s] running install_data
+[0.797s] running install_egg_info
+[0.808s] removing '/home/mi/FishRos/chapter3/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic-0.0.0-py3.10.egg-info' (and everything under it)
+[0.808s] Copying ../../../build/demo_python_topic/demo_python_topic.egg-info to /home/mi/FishRos/chapter3/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic-0.0.0-py3.10.egg-info
+[0.808s] running install_scripts
+[0.909s] Installing novel_pub_node script to /home/mi/FishRos/chapter3/install/demo_python_topic/lib/demo_python_topic
+[0.909s] writing list of installed files to '/home/mi/FishRos/chapter3/build/demo_python_topic/install.log'
+[0.931s] Invoked command in '/home/mi/FishRos/chapter3/topic_ws/src/demo_python_topic' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/mi/FishRos/chapter3/build/demo_python_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mi/FishRos/chapter3/install/demo_python_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/demo_python_topic build --build-base /home/mi/FishRos/chapter3/build/demo_python_topic/build install --record /home/mi/FishRos/chapter3/build/demo_python_topic/install.log --single-version-externally-managed install_data

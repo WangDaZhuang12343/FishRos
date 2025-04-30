@@ -1,0 +1,29 @@
+[0.958s] Invoking command in '/home/mi/FishRos/chapt7/chapt7_ws/src/autopatrol_robot': PYTHONPATH=/home/mi/FishRos/chapt7/chapt7_ws/build/autopatrol_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mi/FishRos/chapt7/chapt7_ws/install/autopatrol_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autopatrol_robot build --build-base /home/mi/FishRos/chapt7/chapt7_ws/build/autopatrol_robot/build install --record /home/mi/FishRos/chapt7/chapt7_ws/build/autopatrol_robot/install.log --single-version-externally-managed install_data
+[1.145s] running egg_info
+[1.155s] writing ../../build/autopatrol_robot/autopatrol_robot.egg-info/PKG-INFO
+[1.155s] writing dependency_links to ../../build/autopatrol_robot/autopatrol_robot.egg-info/dependency_links.txt
+[1.155s] writing entry points to ../../build/autopatrol_robot/autopatrol_robot.egg-info/entry_points.txt
+[1.155s] writing requirements to ../../build/autopatrol_robot/autopatrol_robot.egg-info/requires.txt
+[1.156s] writing top-level names to ../../build/autopatrol_robot/autopatrol_robot.egg-info/top_level.txt
+[1.177s] reading manifest file '../../build/autopatrol_robot/autopatrol_robot.egg-info/SOURCES.txt'
+[1.178s] writing manifest file '../../build/autopatrol_robot/autopatrol_robot.egg-info/SOURCES.txt'
+[1.178s] running build
+[1.178s] running build_py
+[1.178s] copying autopatrol_robot/partol_node.py -> /home/mi/FishRos/chapt7/chapt7_ws/build/autopatrol_robot/build/lib/autopatrol_robot
+[1.178s] copying autopatrol_robot/__init__.py -> /home/mi/FishRos/chapt7/chapt7_ws/build/autopatrol_robot/build/lib/autopatrol_robot
+[1.178s] copying autopatrol_robot/speaker.py -> /home/mi/FishRos/chapt7/chapt7_ws/build/autopatrol_robot/build/lib/autopatrol_robot
+[1.178s] running install
+[1.181s] running install_lib
+[1.192s] running install_data
+[1.192s] copying resource/autopatrol_robot -> /home/mi/FishRos/chapt7/chapt7_ws/install/autopatrol_robot/share/ament_index/resource_index/packages
+[1.192s] copying package.xml -> /home/mi/FishRos/chapt7/chapt7_ws/install/autopatrol_robot/share/autopatrol_robot
+[1.192s] copying launch/autopartol.launch.py -> /home/mi/FishRos/chapt7/chapt7_ws/install/autopatrol_robot/share/autopatrol_robot/launch
+[1.192s] copying config/partol_config.yaml -> /home/mi/FishRos/chapt7/chapt7_ws/install/autopatrol_robot/share/autopatrol_robot/config
+[1.192s] running install_egg_info
+[1.204s] removing '/home/mi/FishRos/chapt7/chapt7_ws/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot-0.0.0-py3.10.egg-info' (and everything under it)
+[1.204s] Copying ../../build/autopatrol_robot/autopatrol_robot.egg-info to /home/mi/FishRos/chapt7/chapt7_ws/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot-0.0.0-py3.10.egg-info
+[1.204s] running install_scripts
+[1.321s] Installing partol_node script to /home/mi/FishRos/chapt7/chapt7_ws/install/autopatrol_robot/lib/autopatrol_robot
+[1.322s] Installing speaker script to /home/mi/FishRos/chapt7/chapt7_ws/install/autopatrol_robot/lib/autopatrol_robot
+[1.322s] writing list of installed files to '/home/mi/FishRos/chapt7/chapt7_ws/build/autopatrol_robot/install.log'
+[1.364s] Invoked command in '/home/mi/FishRos/chapt7/chapt7_ws/src/autopatrol_robot' returned '0': PYTHONPATH=/home/mi/FishRos/chapt7/chapt7_ws/build/autopatrol_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mi/FishRos/chapt7/chapt7_ws/install/autopatrol_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autopatrol_robot build --build-base /home/mi/FishRos/chapt7/chapt7_ws/build/autopatrol_robot/build install --record /home/mi/FishRos/chapt7/chapt7_ws/build/autopatrol_robot/install.log --single-version-externally-managed install_data

@@ -1,0 +1,13 @@
+/patrol_node:
+  ros__parameters:
+    initial_point: [0.0, 0.0, 0.0]
+    target_points: [
+      0.0, 0.0, 0.0,
+      1.0, 1.0 , 3.14,
+      1.0, 2.0, 1.57,
+      4.0, 2.0, 3.14
+      
+    ]
+    image_save_path: "/home/mi/FishRos/chapt7/chapt7_ws/src/autopatrol_robot/image/"
+
+    use_sim_time: true

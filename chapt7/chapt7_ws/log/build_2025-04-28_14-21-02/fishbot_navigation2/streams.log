@@ -1,0 +1,51 @@
+[0.331s] Invoking command in '/home/mi/FishRos/chapt7/chapt7_ws/build/fishbot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mi/FishRos/chapt7/chapt7_ws/install/fishbot_application:/home/mi/FishRos/chapt7/chapt7_ws/install/autopatrol_robot:/opt/ros/humble:/home/mi/dev_ws/install/learning_urdf:/home/mi/dev_ws/install/learning_topic:/home/mi/dev_ws/install/learning_tf:/home/mi/dev_ws/install/learning_service:/home/mi/dev_ws/install/learning_qos:/home/mi/dev_ws/install/learning_pkg_python:/home/mi/dev_ws/install/learning_parameter:/home/mi/dev_ws/install/learning_node:/home/mi/dev_ws/install/learning_launch:/home/mi/dev_ws/install/learning_action:/home/mi/dev_ws/install/learning_gazebo_harmonic:/home/mi/dev_ws/install/learning_gazebo:/home/mi/dev_ws/install/learning_cv /usr/bin/cmake /home/mi/FishRos/chapt7/chapt7_ws/src/fishbot_navigation2 -DCMAKE_INSTALL_PREFIX=/home/mi/FishRos/chapt7/chapt7_ws/install/fishbot_navigation2
+[0.379s] -- The C compiler identification is GNU 11.4.0
+[0.428s] -- The CXX compiler identification is GNU 11.4.0
+[0.434s] -- Detecting C compiler ABI info
+[0.492s] -- Detecting C compiler ABI info - done
+[0.497s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.498s] -- Detecting C compile features
+[0.498s] -- Detecting C compile features - done
+[0.502s] -- Detecting CXX compiler ABI info
+[0.562s] -- Detecting CXX compiler ABI info - done
+[0.566s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.566s] -- Detecting CXX compile features
+[0.567s] -- Detecting CXX compile features - done
+[0.570s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.921s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.017s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.082s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.083s] -- Added test 'lint_cmake' to check CMake code style
+[1.083s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.084s] -- Added test 'xmllint' to check XML markup files
+[1.085s] -- Configuring done
+[1.087s] -- Generating done
+[1.088s] -- Build files have been written to: /home/mi/FishRos/chapt7/chapt7_ws/build/fishbot_navigation2
+[1.092s] Invoked command in '/home/mi/FishRos/chapt7/chapt7_ws/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mi/FishRos/chapt7/chapt7_ws/install/fishbot_application:/home/mi/FishRos/chapt7/chapt7_ws/install/autopatrol_robot:/opt/ros/humble:/home/mi/dev_ws/install/learning_urdf:/home/mi/dev_ws/install/learning_topic:/home/mi/dev_ws/install/learning_tf:/home/mi/dev_ws/install/learning_service:/home/mi/dev_ws/install/learning_qos:/home/mi/dev_ws/install/learning_pkg_python:/home/mi/dev_ws/install/learning_parameter:/home/mi/dev_ws/install/learning_node:/home/mi/dev_ws/install/learning_launch:/home/mi/dev_ws/install/learning_action:/home/mi/dev_ws/install/learning_gazebo_harmonic:/home/mi/dev_ws/install/learning_gazebo:/home/mi/dev_ws/install/learning_cv /usr/bin/cmake /home/mi/FishRos/chapt7/chapt7_ws/src/fishbot_navigation2 -DCMAKE_INSTALL_PREFIX=/home/mi/FishRos/chapt7/chapt7_ws/install/fishbot_navigation2
+[1.094s] Invoking command in '/home/mi/FishRos/chapt7/chapt7_ws/build/fishbot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mi/FishRos/chapt7/chapt7_ws/install/fishbot_application:/home/mi/FishRos/chapt7/chapt7_ws/install/autopatrol_robot:/opt/ros/humble:/home/mi/dev_ws/install/learning_urdf:/home/mi/dev_ws/install/learning_topic:/home/mi/dev_ws/install/learning_tf:/home/mi/dev_ws/install/learning_service:/home/mi/dev_ws/install/learning_qos:/home/mi/dev_ws/install/learning_pkg_python:/home/mi/dev_ws/install/learning_parameter:/home/mi/dev_ws/install/learning_node:/home/mi/dev_ws/install/learning_launch:/home/mi/dev_ws/install/learning_action:/home/mi/dev_ws/install/learning_gazebo_harmonic:/home/mi/dev_ws/install/learning_gazebo:/home/mi/dev_ws/install/learning_cv /usr/bin/cmake --build /home/mi/FishRos/chapt7/chapt7_ws/build/fishbot_navigation2 -- -j20 -l20
+[1.144s] Invoked command in '/home/mi/FishRos/chapt7/chapt7_ws/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mi/FishRos/chapt7/chapt7_ws/install/fishbot_application:/home/mi/FishRos/chapt7/chapt7_ws/install/autopatrol_robot:/opt/ros/humble:/home/mi/dev_ws/install/learning_urdf:/home/mi/dev_ws/install/learning_topic:/home/mi/dev_ws/install/learning_tf:/home/mi/dev_ws/install/learning_service:/home/mi/dev_ws/install/learning_qos:/home/mi/dev_ws/install/learning_pkg_python:/home/mi/dev_ws/install/learning_parameter:/home/mi/dev_ws/install/learning_node:/home/mi/dev_ws/install/learning_launch:/home/mi/dev_ws/install/learning_action:/home/mi/dev_ws/install/learning_gazebo_harmonic:/home/mi/dev_ws/install/learning_gazebo:/home/mi/dev_ws/install/learning_cv /usr/bin/cmake --build /home/mi/FishRos/chapt7/chapt7_ws/build/fishbot_navigation2 -- -j20 -l20
+[1.145s] Invoking command in '/home/mi/FishRos/chapt7/chapt7_ws/build/fishbot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mi/FishRos/chapt7/chapt7_ws/install/fishbot_application:/home/mi/FishRos/chapt7/chapt7_ws/install/autopatrol_robot:/opt/ros/humble:/home/mi/dev_ws/install/learning_urdf:/home/mi/dev_ws/install/learning_topic:/home/mi/dev_ws/install/learning_tf:/home/mi/dev_ws/install/learning_service:/home/mi/dev_ws/install/learning_qos:/home/mi/dev_ws/install/learning_pkg_python:/home/mi/dev_ws/install/learning_parameter:/home/mi/dev_ws/install/learning_node:/home/mi/dev_ws/install/learning_launch:/home/mi/dev_ws/install/learning_action:/home/mi/dev_ws/install/learning_gazebo_harmonic:/home/mi/dev_ws/install/learning_gazebo:/home/mi/dev_ws/install/learning_cv /usr/bin/cmake --install /home/mi/FishRos/chapt7/chapt7_ws/build/fishbot_navigation2
+[1.151s] -- Install configuration: ""
+[1.151s] -- Installing: /home/mi/FishRos/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/launch
+[1.151s] -- Installing: /home/mi/FishRos/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/launch/navigation2.launch.py
+[1.151s] -- Installing: /home/mi/FishRos/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/config
+[1.151s] -- Installing: /home/mi/FishRos/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/config/nav2_params.yaml
+[1.151s] -- Installing: /home/mi/FishRos/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/maps
+[1.152s] -- Installing: /home/mi/FishRos/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/maps/room.yaml
+[1.152s] -- Installing: /home/mi/FishRos/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/maps/room.pgm
+[1.152s] -- Installing: /home/mi/FishRos/chapt7/chapt7_ws/install/fishbot_navigation2/share/ament_index/resource_index/package_run_dependencies/fishbot_navigation2
+[1.152s] -- Installing: /home/mi/FishRos/chapt7/chapt7_ws/install/fishbot_navigation2/share/ament_index/resource_index/parent_prefix_path/fishbot_navigation2
+[1.152s] -- Installing: /home/mi/FishRos/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/environment/ament_prefix_path.sh
+[1.152s] -- Installing: /home/mi/FishRos/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/environment/ament_prefix_path.dsv
+[1.152s] -- Installing: /home/mi/FishRos/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/environment/path.sh
+[1.152s] -- Installing: /home/mi/FishRos/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/environment/path.dsv
+[1.152s] -- Installing: /home/mi/FishRos/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.bash
+[1.152s] -- Installing: /home/mi/FishRos/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.sh
+[1.152s] -- Installing: /home/mi/FishRos/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.zsh
+[1.152s] -- Installing: /home/mi/FishRos/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.dsv
+[1.153s] -- Installing: /home/mi/FishRos/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.dsv
+[1.153s] -- Installing: /home/mi/FishRos/chapt7/chapt7_ws/install/fishbot_navigation2/share/ament_index/resource_index/packages/fishbot_navigation2
+[1.153s] -- Installing: /home/mi/FishRos/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/cmake/fishbot_navigation2Config.cmake
+[1.153s] -- Installing: /home/mi/FishRos/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/cmake/fishbot_navigation2Config-version.cmake
+[1.153s] -- Installing: /home/mi/FishRos/chapt7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.xml
+[1.156s] Invoked command in '/home/mi/FishRos/chapt7/chapt7_ws/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mi/FishRos/chapt7/chapt7_ws/install/fishbot_application:/home/mi/FishRos/chapt7/chapt7_ws/install/autopatrol_robot:/opt/ros/humble:/home/mi/dev_ws/install/learning_urdf:/home/mi/dev_ws/install/learning_topic:/home/mi/dev_ws/install/learning_tf:/home/mi/dev_ws/install/learning_service:/home/mi/dev_ws/install/learning_qos:/home/mi/dev_ws/install/learning_pkg_python:/home/mi/dev_ws/install/learning_parameter:/home/mi/dev_ws/install/learning_node:/home/mi/dev_ws/install/learning_launch:/home/mi/dev_ws/install/learning_action:/home/mi/dev_ws/install/learning_gazebo_harmonic:/home/mi/dev_ws/install/learning_gazebo:/home/mi/dev_ws/install/learning_cv /usr/bin/cmake --install /home/mi/FishRos/chapt7/chapt7_ws/build/fishbot_navigation2

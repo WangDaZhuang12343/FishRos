@@ -1,0 +1,71 @@
+[0.007s] Invoking command in '/home/mi/FishRos/chapter2/chapt2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/mi/dev_ws/install/learning_urdf:/home/mi/dev_ws/install/learning_topic:/home/mi/dev_ws/install/learning_tf:/home/mi/dev_ws/install/learning_service:/home/mi/dev_ws/install/learning_qos:/home/mi/dev_ws/install/learning_pkg_python:/home/mi/dev_ws/install/learning_parameter:/home/mi/dev_ws/install/learning_node:/home/mi/dev_ws/install/learning_launch:/home/mi/dev_ws/install/learning_action:/home/mi/dev_ws/install/learning_gazebo_harmonic:/home/mi/dev_ws/install/learning_gazebo:/home/mi/dev_ws/install/learning_cv /usr/bin/cmake /home/mi/FishRos/chapter2/chapt2_ws/src/demo_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/mi/FishRos/chapter2/chapt2_ws/install/demo_cpp_pkg
+[0.066s] -- The C compiler identification is GNU 11.4.0
+[0.113s] -- The CXX compiler identification is GNU 11.4.0
+[0.121s] -- Detecting C compiler ABI info
+[0.169s] -- Detecting C compiler ABI info - done
+[0.173s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.174s] -- Detecting C compile features
+[0.174s] -- Detecting C compile features - done
+[0.177s] -- Detecting CXX compiler ABI info
+[0.231s] -- Detecting CXX compiler ABI info - done
+[0.236s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.236s] -- Detecting CXX compile features
+[0.236s] -- Detecting CXX compile features - done
+[0.239s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.488s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.563s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.597s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.601s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.608s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.619s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.632s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.668s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.671s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.692s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.700s] -- Looking for pthread.h
+[0.753s] -- Looking for pthread.h - found
+[0.753s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.802s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.802s] -- Found Threads: TRUE  
+[0.843s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.917s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.917s] -- Configured cppcheck include dirs: 
+[0.917s] -- Configured cppcheck exclude dirs and/or files: 
+[0.918s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.919s] -- Added test 'lint_cmake' to check CMake code style
+[0.920s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.922s] -- Added test 'uncrustify' to check C / C++ code style
+[0.922s] -- Configured uncrustify additional arguments: 
+[0.923s] -- Added test 'xmllint' to check XML markup files
+[0.924s] -- Configuring done
+[0.933s] -- Generating done
+[0.935s] -- Build files have been written to: /home/mi/FishRos/chapter2/chapt2_ws/build/demo_cpp_pkg
+[0.941s] Invoked command in '/home/mi/FishRos/chapter2/chapt2_ws/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/mi/dev_ws/install/learning_urdf:/home/mi/dev_ws/install/learning_topic:/home/mi/dev_ws/install/learning_tf:/home/mi/dev_ws/install/learning_service:/home/mi/dev_ws/install/learning_qos:/home/mi/dev_ws/install/learning_pkg_python:/home/mi/dev_ws/install/learning_parameter:/home/mi/dev_ws/install/learning_node:/home/mi/dev_ws/install/learning_launch:/home/mi/dev_ws/install/learning_action:/home/mi/dev_ws/install/learning_gazebo_harmonic:/home/mi/dev_ws/install/learning_gazebo:/home/mi/dev_ws/install/learning_cv /usr/bin/cmake /home/mi/FishRos/chapter2/chapt2_ws/src/demo_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/mi/FishRos/chapter2/chapt2_ws/install/demo_cpp_pkg
+[0.942s] Invoking command in '/home/mi/FishRos/chapter2/chapt2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/mi/dev_ws/install/learning_urdf:/home/mi/dev_ws/install/learning_topic:/home/mi/dev_ws/install/learning_tf:/home/mi/dev_ws/install/learning_service:/home/mi/dev_ws/install/learning_qos:/home/mi/dev_ws/install/learning_pkg_python:/home/mi/dev_ws/install/learning_parameter:/home/mi/dev_ws/install/learning_node:/home/mi/dev_ws/install/learning_launch:/home/mi/dev_ws/install/learning_action:/home/mi/dev_ws/install/learning_gazebo_harmonic:/home/mi/dev_ws/install/learning_gazebo:/home/mi/dev_ws/install/learning_cv /usr/bin/cmake --build /home/mi/FishRos/chapter2/chapt2_ws/build/demo_cpp_pkg -- -j20 -l20
+[0.976s] [ 25%] [32mBuilding CXX object CMakeFiles/learn_auto.dir/src/learn_auto.cpp.o[0m
+[0.976s] [ 25%] [32mBuilding CXX object CMakeFiles/learn_lambda.dir/src/learn_lambda.cpp.o[0m
+[0.976s] [ 25%] [32mBuilding CXX object CMakeFiles/learn_shared_ptr.dir/src/learn_shared_ptr.cpp.o[0m
+[0.977s] [ 33%] [32mBuilding CXX object CMakeFiles/learn_funcational.dir/src/learn_funcational.cpp.o[0m
+[0.977s] [ 41%] [32mBuilding CXX object CMakeFiles/person_node.dir/src/person_node.cpp.o[0m
+[0.978s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/cpp_node.cpp.o[0m
+[1.133s] [ 58%] [32m[1mLinking CXX executable learn_auto[0m
+[1.203s] [ 58%] Built target learn_auto
+[1.218s] [ 66%] [32m[1mLinking CXX executable learn_shared_ptr[0m
+[1.219s] [ 75%] [32m[1mLinking CXX executable learn_lambda[0m
+[1.275s] [ 83%] [32m[1mLinking CXX executable learn_funcational[0m
+[1.291s] [ 83%] Built target learn_shared_ptr
+[1.294s] [ 83%] Built target learn_lambda
+[1.317s] /usr/bin/ld: CMakeFiles/learn_funcational.dir/src/learn_funcational.cpp.o: in function `main':
+[1.317s] learn_funcational.cpp:(.text+0xce): undefined reference to `FileSave::FileSave()'
+[1.317s] /usr/bin/ld: learn_funcational.cpp:(.text+0x3c2): undefined reference to `FileSave::~FileSave()'
+[1.317s] /usr/bin/ld: learn_funcational.cpp:(.text+0x533): undefined reference to `FileSave::~FileSave()'
+[1.319s] collect2: error: ld returned 1 exit status
+[1.321s] gmake[2]: *** [CMakeFiles/learn_funcational.dir/build.make:97：learn_funcational] 错误 1
+[1.321s] gmake[1]: *** [CMakeFiles/Makefile2:277：CMakeFiles/learn_funcational.dir/all] 错误 2
+[1.321s] gmake[1]: *** 正在等待未完成的任务....
+[2.688s] [ 91%] [32m[1mLinking CXX executable cpp_node[0m
+[2.699s] [100%] [32m[1mLinking CXX executable person_node[0m
+[2.786s] [100%] Built target cpp_node
+[2.786s] [100%] Built target person_node
+[2.787s] gmake: *** [Makefile:146：all] 错误 2
+[2.788s] Invoked command in '/home/mi/FishRos/chapter2/chapt2_ws/build/demo_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/mi/dev_ws/install/learning_urdf:/home/mi/dev_ws/install/learning_topic:/home/mi/dev_ws/install/learning_tf:/home/mi/dev_ws/install/learning_service:/home/mi/dev_ws/install/learning_qos:/home/mi/dev_ws/install/learning_pkg_python:/home/mi/dev_ws/install/learning_parameter:/home/mi/dev_ws/install/learning_node:/home/mi/dev_ws/install/learning_launch:/home/mi/dev_ws/install/learning_action:/home/mi/dev_ws/install/learning_gazebo_harmonic:/home/mi/dev_ws/install/learning_gazebo:/home/mi/dev_ws/install/learning_cv /usr/bin/cmake --build /home/mi/FishRos/chapter2/chapt2_ws/build/demo_cpp_pkg -- -j20 -l20

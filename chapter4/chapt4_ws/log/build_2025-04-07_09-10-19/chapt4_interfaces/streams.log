@@ -1,0 +1,60 @@
+[0.008s] Invoking command in '/home/mi/FishRos/chapter4/chapt4_ws/build/chapt4_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/mi/dev_ws/install/learning_urdf:/home/mi/dev_ws/install/learning_topic:/home/mi/dev_ws/install/learning_tf:/home/mi/dev_ws/install/learning_service:/home/mi/dev_ws/install/learning_qos:/home/mi/dev_ws/install/learning_pkg_python:/home/mi/dev_ws/install/learning_parameter:/home/mi/dev_ws/install/learning_node:/home/mi/dev_ws/install/learning_launch:/home/mi/dev_ws/install/learning_action:/home/mi/dev_ws/install/learning_gazebo_harmonic:/home/mi/dev_ws/install/learning_gazebo:/home/mi/dev_ws/install/learning_cv CONDA_PROMPT_MODIFIER=(base) /home/mi/miniconda3/bin/cmake --build /home/mi/FishRos/chapter4/chapt4_ws/build/chapt4_interfaces -- -j20 -l20
+[0.122s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.226s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.247s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.249s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.254s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.262s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.272s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.311s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.399s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[0.399s]   execute_process(/home/mi/miniconda3/bin/python3 -m rosidl_adapter
+[0.399s]   --package-name chapt4_interfaces --arguments-file
+[0.399s]   /home/mi/FishRos/chapter4/chapt4_ws/build/chapt4_interfaces/rosidl_adapter__arguments__chapt4_interfaces.json
+[0.399s]   --output-dir
+[0.399s]   /home/mi/FishRos/chapter4/chapt4_ws/build/chapt4_interfaces/rosidl_adapter/chapt4_interfaces
+[0.399s]   --output-file
+[0.399s]   /home/mi/FishRos/chapter4/chapt4_ws/build/chapt4_interfaces/rosidl_adapter/chapt4_interfaces.idls)
+[0.399s]   returned error code 1:
+[0.399s] 
+[0.400s]   Error processing 'float32 target_X' of 'chapt4_interfaces/Patrol_Request':
+[0.400s]   ''target_X' is an invalid field name.  It should have the pattern
+[0.400s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$''
+[0.400s] 
+[0.400s]   Traceback (most recent call last):
+[0.400s] 
+[0.400s]     File "<frozen runpy>", line 198, in _run_module_as_main
+[0.400s]     File "<frozen runpy>", line 88, in _run_code
+[0.400s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.400s]       sys.exit(main())
+[0.400s]                ^^^^^^
+[0.400s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[0.400s]       abs_idl_file = convert_to_idl(
+[0.400s]                      ^^^^^^^^^^^^^^^
+[0.400s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+[0.400s]       return convert_srv_to_idl(
+[0.400s]              ^^^^^^^^^^^^^^^^^^^
+[0.400s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+[0.400s]       srv = parse_service_string(package_name, input_file.stem, content)
+[0.400s]             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0.400s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 859, in parse_service_string
+[0.400s]       request_message = parse_message_string(
+[0.400s]                         ^^^^^^^^^^^^^^^^^^^^^
+[0.400s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 519, in parse_message_string
+[0.400s]       fields.append(Field(
+[0.400s]                     ^^^^^^
+[0.400s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 354, in __init__
+[0.400s]       raise NameError(
+[0.400s] 
+[0.400s]   NameError: 'target_X' is an invalid field name.  It should have the pattern
+[0.400s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'
+[0.400s] 
+[0.400s] Call Stack (most recent call first):
+[0.400s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.400s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[0.400s] 
+[0.400s] [0m
+[0.401s] -- Configuring incomplete, errors occurred!
+[0.401s] See also "/home/mi/FishRos/chapter4/chapt4_ws/build/chapt4_interfaces/CMakeFiles/CMakeOutput.log".
+[0.403s] gmake: *** [Makefile:747：cmake_check_build_system] 错误 1
+[0.405s] Invoked command in '/home/mi/FishRos/chapter4/chapt4_ws/build/chapt4_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/mi/dev_ws/install/learning_urdf:/home/mi/dev_ws/install/learning_topic:/home/mi/dev_ws/install/learning_tf:/home/mi/dev_ws/install/learning_service:/home/mi/dev_ws/install/learning_qos:/home/mi/dev_ws/install/learning_pkg_python:/home/mi/dev_ws/install/learning_parameter:/home/mi/dev_ws/install/learning_node:/home/mi/dev_ws/install/learning_launch:/home/mi/dev_ws/install/learning_action:/home/mi/dev_ws/install/learning_gazebo_harmonic:/home/mi/dev_ws/install/learning_gazebo:/home/mi/dev_ws/install/learning_cv CONDA_PROMPT_MODIFIER=(base) /home/mi/miniconda3/bin/cmake --build /home/mi/FishRos/chapter4/chapt4_ws/build/chapt4_interfaces -- -j20 -l20

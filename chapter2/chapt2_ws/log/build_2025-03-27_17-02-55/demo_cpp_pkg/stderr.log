@@ -1,0 +1,9 @@
+[31mCMake Error at CMakeLists.txt:22 (add_executable):
+  add_executable cannot create target "learn_funcational" because another
+  target with the same name already exists.  The existing target is an
+  executable created in source directory
+  "/home/mi/FishRos/chapter2/chapt2_ws/src/demo_cpp_pkg".  See documentation
+  for policy CMP0002 for more details.
+
+[0m
+gmake: *** [Makefile:472：cmake_check_build_system] 错误 1
